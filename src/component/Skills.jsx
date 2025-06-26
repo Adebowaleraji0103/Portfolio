@@ -1,34 +1,3 @@
-import SkillName from "./SkillsName";
-
-// const allskillsDetails = [
-//   {
-//     name: "HTML"
-//   },
-//    {
-//     name: "CSS"
-//   },
-//    {
-//     name: "JAVASCRIPT"
-//   },
-//    {
-//     name: "REACT"
-//   },
-//    {
-//     name: "TAILWIND"
-//   },
-//     {
-//     name: "FIGMA"
-//   },
-//     {
-//     name: "ADOBE XD"
-//   },
-//     {
-//     name: "CORELDRAW"
-//   },
-//     {
-//     name: "MICROSOFT WORD"
-//   },
-// ]
 
 const skills = () => {
   return (
