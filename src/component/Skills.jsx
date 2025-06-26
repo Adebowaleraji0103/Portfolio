@@ -26,6 +26,11 @@ const skills = () => {
         </div>
 
         <div className="w-[7rem]  bg-[#2ecc71] text-white font-semibold py-2 px-5 rounded-[10px]">
+          <h2>Github</h2>
+        </div>
+
+
+        <div className="w-[7rem]  bg-[#2ecc71] text-white font-semibold py-2 px-5 rounded-[10px]">
           <h2>Figma</h2>
         </div>
 
