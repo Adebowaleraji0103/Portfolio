@@ -9,7 +9,7 @@ const Hero = () => {
         />
       </div>
 
-      <div className="font-bold text-[30px]">
+      <div className="font-bold text-[30px] text-center items-center">
         <p>
           Hi, I'm <span className="text-[#2ecc71]">Adebowale</span>
         </p>
