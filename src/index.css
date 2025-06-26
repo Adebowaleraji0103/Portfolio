@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .section{
-    padding-top: 2rem;
+    padding:10px 20px ;
     margin-top: 20px;
     background-color: #f5f5f5;
 }
