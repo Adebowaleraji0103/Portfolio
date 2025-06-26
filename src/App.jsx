@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Hero/>
-      <About/>
+      <Hero />
+      <About />
       <Skills/>
     </div>
   );
