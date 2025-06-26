@@ -68,7 +68,7 @@ const skills = () => {
           <h2>Coreldraw</h2>
         </div>
 
-         <div className="w-fit  bg-[#2ecc71] text-white font-semibold py-2 px-5 rounded-[10px]">
+         <div className="w-[10rem]  bg-[#2ecc71] text-white font-semibold py-2 px-2 rounded-[10px]">
           <h2>Microsoft office</h2>
         </div>
       </div>
