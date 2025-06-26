@@ -1,2 +1,10 @@
 @import "tailwindcss";
 
+.section{
+    padding: 2rem 0;
+    margin-top: 10px;
+    background-color: #f5f5f5;
+}
+border{
+    background-color: #2ecc71;
+}
