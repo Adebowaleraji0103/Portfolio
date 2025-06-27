@@ -14,7 +14,7 @@ const Navbar = () => {
 
       <ul className=" gap-[25px] font-semibold text-[#2ecc71] hidden lg:flex">
         <li>
-          <a href="#About">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
           <a href="#Projects">Projects</a>
