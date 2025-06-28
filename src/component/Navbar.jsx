@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center px-[2rem] py-[7px] shadow-gray-250 shadow-lg sticky top-0 scroll-smooth">
+    <div className="flex justify-between items-center px-[2rem] py-[7px] shadow-gray-250 shadow-lg sticky top-0 scroll-smooth scroll-m-2.5">
       <h2 className="font-bold text-[#2ecc71] bg-[#f5f5f5] px-5 py-2 w-fit rounded-2xl">
         {" "}
         Debo
