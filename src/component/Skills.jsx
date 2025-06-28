@@ -53,7 +53,4 @@ const skills = () => {
 export default skills;
 
 
-  // <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5 items-center justify-between text-center ">
-  //   {allskillsDetails.map((skills)=> <SkillName allskillsDetails = {skills}/> )}
-// </div> 
-
+  //
