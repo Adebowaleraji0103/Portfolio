@@ -2,4 +2,4 @@ const Project = () => {
     return (  );
 }
  
-export default ;
+export default Project;
