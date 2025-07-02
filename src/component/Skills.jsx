@@ -7,9 +7,9 @@ const skills = () => {
       <h1 className="text-center font-bold text-[30px] pb-4">Skills</h1>
 
       <div className="w-fit pb-[35px] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-y-5 gap-x-14 justify-center items-center text-center">
-        <div className="w-[7rem] flex flex-col gap-3 items-center bg-[#2ecc71] text-white font-semibold py-2 px-5 rounded-[10px]">
-          <FaHtml5 className=""/>
-          <h2>HTML</h2>
+        <div className="w-[7rem] flex flex-col gap-3 items-center bg-[#1d7240] text-white font-semibold py-2 px-5 rounded-[10px]">
+          <FaHtml5 className="size-24"/>
+          <h2 className="text-[20px]">HTML</h2>
         </div>
 
         <div className="w-[7rem] bg-[#2ecc71] text-white font-semibold py-2 px-5 rounded-[10px]">
