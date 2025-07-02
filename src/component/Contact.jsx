@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="flex flex-col gap-10 bg-white shadow-lg shadow-gray-300  justify-center items-center text-center w-[100%] px-[10px] py-[20px] " id="contact">
+    <div className="shadowSection mb-5 ">
       <h1>Get In Touch</h1>
 
       <form action="">

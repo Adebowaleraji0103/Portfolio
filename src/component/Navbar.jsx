@@ -6,13 +6,13 @@ const Navbar = () => {
         Debo
       </h2>
 
-      <div className="flex flex-col gap-[3px] lg:hidden md:hidden">
+      <div className="flex flex-col gap-[3px] md:hidden">
         <span className="w-[25px] h-[3px] inline-block bg-[#2ecc71]"></span>
         <span className="w-[25px] h-[3px] inline-block bg-[#2ecc71]"></span>
         <span className="w-[25px] h-[3px] inline-block bg-[#2ecc71]"></span>
       </div>
 
-      <ul className=" gap-[25px] font-semibold text-[#2ecc71] hidden lg:flex md:flex">
+      <ul className=" gap-[25px] font-semibold text-[#2ecc71] hidden md:flex">
         <li>
           <a href="#about">About</a>
         </li>
