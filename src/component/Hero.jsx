@@ -18,7 +18,7 @@ const Hero = () => {
         </h2>
       </div>
 
-      <button className="py-3 px-10 rounded-[10px] bg-[#2ecc71] text-white font-semibold  hover:bg-[green] mt-4 cursor-pointer">
+      <button className="py-3 px-10 rounded-[10px] bg-[#2ecc71] text-white font-semibold  hover:bg-[green] duration-1000 mt-4 cursor-pointer">
         Get In Touch
       </button>
     </div>
