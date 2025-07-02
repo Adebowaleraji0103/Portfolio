@@ -5,7 +5,7 @@ const About = () => {
 
 
       <div className=" grid grid-cols-1 sm:grid-cols-2 gap-5 items-center ">
-      <div className="w-full  border-4 border-[#2ecc71] object-cover ">
+      <div className="w-full  border-7 border-[#2ecc71] bor object-cover ">
         <img
           className="w-full h-full"
           src="./images/Learn JavaScript skills from scratch for only $30.jpg"
