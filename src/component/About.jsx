@@ -6,11 +6,10 @@ const About = () => {
     >
       <h1 className="font-bold text-[30px]  ">About Me</h1>
 
-      <div className="flex flex-col px-8 grid-cols-1 sm:grid-cols-2 gap-5 items-center ">
-
-        <div className="w-full h-[50%] border-7 border-[#2ecc71] object-cover ">
+      <div className=" grid grid-cols-1 sm:grid-cols-2 gap-5 items-center ">
+        <div className="w-full  border-7 border-[#2ecc71] bor object-cover ">
           <img
-            className="w-full h-full "
+            className="w-full h-full"
             src="./images/mubarak.jpeg"
             alt="helo"
           />
