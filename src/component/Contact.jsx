@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="shadowSection mb-5 section ">
+    <div className="shadowSection mb-5 section " id="contact">
       <h1>Get In Touch</h1>
 
       <form action="">
