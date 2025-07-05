@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const Hero = () => {
   return (
     <div className="bg-[#f5f5f5de] h-[80%] flex flex-col gap-4 items-center justify-center py-[3rem] mt-4 rounded-[10px]">
@@ -11,7 +13,15 @@ const Hero = () => {
 
       <div className="font-bold text-[30px] text-center items-center">
         <p>
-          Hi, I'm <span className="text-[#2ecc71]">Adebowale</span>
+          Hi, I'm{" "}
+          <motion.span
+            className="text-[#2ecc71]"
+            initial={{ opacity: 0.5 }}
+            animate={{ opacity: 2, }}
+            transition={{ delay:4, duration: 5 }}
+          >
+            Adebowale
+          </motion.span>
         </p>
         <h2 className="font-normal text-[16px]">
           A Frontend Developer and UI/UX Designer
