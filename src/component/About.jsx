@@ -1,10 +1,17 @@
+import { motion } from "framer-motion";
+
 const About = () => {
   return (
     <div
       className="flex flex-col gap-10 bg-white shadow-lg shadow-gray-300  justify-center items-center text-center w-[100%] px-[10px] py-[20px] "
       id="about"
     >
-      <h1 className="font-bold text-[30px]  ">About Me</h1>
+      <motion.h1 className="font-bold text-[30px]"   
+      initial={{x:40}}
+      animate= {{x:0}}
+      transition={{duration:5}}
+
+      >About Me</motion.h1>
 
       <div className=" grid grid-cols-1 sm:grid-cols-2 gap-5 items-center px-[20px]">
         <div className="w-full  border-7 border-[#2ecc71] bor object-cover ">
