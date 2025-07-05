@@ -16,9 +16,9 @@ const Hero = () => {
           Hi, I'm{" "}
           <motion.span
             className="text-[#2ecc71]"
-            initial={{ opacity: 0.5 }}
+            initial={{ opacity: 0 }}
             animate={{ opacity: 2, }}
-            transition={{ delay:4, duration: 5 }}
+            transition={{ delay:2, duration: 3 }}
           >
             Adebowale
           </motion.span>
