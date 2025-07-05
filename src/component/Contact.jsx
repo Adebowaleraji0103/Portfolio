@@ -8,8 +8,8 @@ const Contact = () => {
     >
       <motion.h1
       initial={{opacity:0}}
-      animate={{opacity:1}}
-      transition={{delay:2,duration:7}}
+      animate={{opacity:1,color:"red"}}
+      transition={{delay:5,duration:17}}
       
       >Get In Touch</motion.h1>
 
