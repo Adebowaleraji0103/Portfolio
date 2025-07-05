@@ -8,8 +8,8 @@ const About = () => {
     >
       <motion.h1 className="font-bold text-[30px]"   
       initial={{x:40}}
-      animate= {{x:0}}
-      transition={{duration:5, }}
+      animate= {{x:0,}}
+      transition={{duration:5, scaleX:4, scale:3 }}
 
       >About Me</motion.h1>
 
