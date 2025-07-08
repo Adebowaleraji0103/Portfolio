@@ -11,7 +11,7 @@ const About = () => {
       animate= {{x:0,}}
       transition={{duration:2, }}
 
-      ><marquee behavior="" direction="">About Me</marquee></motion.h1> 
+      ><marquee behavior="scroll" direction="right" scrollamount="5" w>About Me</marquee></motion.h1> 
 
       <div className=" grid grid-cols-1 sm:grid-cols-2 gap-5 items-center px-[20px]">
         <div className="w-full  border-7 border-[#2ecc71] bor object-cover ">
