@@ -11,7 +11,7 @@ const Contact = () => {
       <form action="" className="w-full flex flex-col gap-8">
         <div className="flex flex-col gap-2">
           <label htmlFor="nameInput">Name</label>
-          <input type="text" className="border w-[100%] p-0" id="nameInput"/>
+          <input id="nameInput" type= "text" className="border w-[100%] p-0" />
         </div>
 
         <div>
