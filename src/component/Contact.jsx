@@ -26,7 +26,7 @@ const Contact = () => {
 
         <div>
           <label htmlFor="">Message</label>
-          <textarea name="" id="" className="border border-gray-300 py-2 w-[100%] h-[250px]"></textarea>
+          <textarea name="" id="" className="border border-gray-300 py-2 w-[100%] h-[200px]"></textarea>
         </div>
       </form>
     </div>
