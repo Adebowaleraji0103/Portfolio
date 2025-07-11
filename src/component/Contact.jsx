@@ -8,10 +8,10 @@ const Contact = () => {
     >
       <h1 className="text-center font-bold text-[30px]">Get In Touch</h1>
 
-      <form action="w-full">
-        <div>
-          <label htmlFor="">Name</label>
-          <input type="text" className="border w-[100%] p-0" />
+      <form action="" className="w-full flex flex-col gap-8">
+        <div className="flex flex-col gap-2">
+          <label htmlFor="nameInput">Name</label>
+          <input type="text" className="border w-[100%] p-0" id="nameInput"/>
         </div>
 
         <div>
