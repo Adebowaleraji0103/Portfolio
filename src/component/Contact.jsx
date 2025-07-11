@@ -17,16 +17,17 @@ const Contact = () => {
         </div>
 
         <div>
-          <label htmlFor="">Email</label>
+          <label htmlFor="emailInput">Email</label>
           <input
             type="email"
+            id="emailInput"
             className="border border-gray-300 py-2 w-[100%]"
           />
         </div>
 
         <div>
-          <label htmlFor="">Message</label>
-          <textarea name="" id="" className="border border-gray-300 py-2 w-[100%] h-[200px]"></textarea>
+          <label htmlFor="messageId">Message</label>
+          <textarea name="" id="messageId" className="border border-gray-300 py-2 w-[100%] h-[200px]"></textarea>
         </div>
       </form>
     </div>
