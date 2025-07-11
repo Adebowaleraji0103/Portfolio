@@ -3,7 +3,7 @@
 const Contact = () => {
   return (
     <div
-      className="flex flex-col gap-10 w-[98%] pt-[20px] mt-[20px] shadow-2xl shadow-gray-400 lg:shadow px-[10px]  "
+      className="flex flex-col m-auto gap-10 w-[98%] pt-[20px] mt-[20px] shadow-2xl shadow-gray-400 lg:shadow px-[10px]  "
       id="contact"
     >
       <h1 className="text-center font-bold text-[30px]">Get In Touch</h1>
