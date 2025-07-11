@@ -12,7 +12,7 @@ const Contact = () => {
           <input
             id="nameInput"
             type="text"
-            className="border border-gray-300 py-2 w-[100%]"
+            className="border border-gray-300 px-5 py-2 w-[100%]"
           />
         </div>
 
@@ -21,7 +21,7 @@ const Contact = () => {
           <input
             type="email"
             id="emailInput"
-            className="border border-gray-300 py-2 w-[100%]"
+            className="border border-gray-300 px-5 py-2 w-[100%]"
           />
         </div>
 
@@ -30,7 +30,7 @@ const Contact = () => {
           <textarea
             name=""
             id="messageId"
-            className="border border-gray-300 py-2 w-[100%] h-[200px]"
+            className="border border-gray-300 px-5 py-2 w-[100%] h-[200px]"
           ></textarea>
         </div>
 
