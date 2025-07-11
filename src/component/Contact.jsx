@@ -9,7 +9,7 @@ const Contact = () => {
       <h1 className="text-center font-bold text-[30px]">Get In Touch</h1>
 
       <form action="" className="w-full flex flex-col gap-8">
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-1">
           <label htmlFor="nameInput">Name</label>
           <input id="nameInput" type= "text" className="border border-gray-300 py-2 w-[100%]" />
         </div>
