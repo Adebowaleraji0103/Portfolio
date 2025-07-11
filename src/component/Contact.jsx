@@ -6,7 +6,7 @@ const Contact = () => {
       className="flex flex-col gap-10 w-[98%] pt-[20px] mt-[20px] shadow-2xl shadow-gray-400 lg:shadow px-[10px]  "
       id="contact"
     >
-      <h1 className="text-center">Get In Touch</h1>
+      <h1 className="text-center ">Get In Touch</h1>
 
       <form action="w-full">
         <div>
