@@ -34,7 +34,7 @@ const Contact = () => {
           ></textarea>
         </div>
 
-        <div className="w-fit bg-[#2ecc71] py-2 px-5 rounded-[10px] text-white font-semibold cursor-pointer mb-24">
+        <div className="w-fit bg-[#2ecc71] py-2 px-5 rounded-[10px] text-white font-semibold cursor-pointer mb-4">
           <button>Send Message</button>
         </div>
       </form>
