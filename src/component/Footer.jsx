@@ -1,11 +1,11 @@
 const Footer = () => {
-    return ( 
-        <div className="bg-[#2c3e50] w-full h-[14rem] mt-[20px] pt-[20px]">
-            <h1>Footer</h1>
+  return (
+    // <div className="bg-[#2c3e50] w-full h-[14rem] mt-[20px] pt-[20px]">
+    //   <h1>Footer</h1>
+    // </div>
 
-
-
-            <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+    <footer className="bg-gray-900 text-white py-6 mt-10">
+  <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
     <p className="text-sm mb-4 md:mb-0">© 2025 Mubarak | Web Designer</p>
     <ul className="flex space-x-6 text-sm">
       <li><a href="#projects" className="hover:text-blue-400">Projects</a></li>
@@ -17,8 +17,8 @@ const Footer = () => {
       <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
   </div>
-        </div>
-     );
-}
- 
+</footer>
+  );
+};
+
 export default Footer;
