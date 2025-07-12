@@ -5,8 +5,8 @@ const Footer = () => {
       
       <ul>
         <li><a href="#about">About</a></li>
-        <li></li>
-        <li></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#skills">Skills</a></li>
       </ul>
 
     </footer>
