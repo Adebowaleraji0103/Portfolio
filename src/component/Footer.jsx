@@ -6,10 +6,10 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2c3e50] w-full h-[14rem] mt-[20px] pt-[20px] mb-50">
+    <footer className="flex flex-col gap-6 items-center justify-center text-white font-semibold bg-[#2c3e50] w-full h-[10rem] mt-[20px] pt-[20px] mb-50">
       <h2>© 2025 Adebowale | Web Designer</h2>
       
-      <ul>
+      <ul className="flex gap-10">
         <li><FaWhatsapp /></li>
         <li><FaGithub /></li>
         <li><SiGmail /></li>
