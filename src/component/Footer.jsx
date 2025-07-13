@@ -10,8 +10,8 @@ const Footer = () => {
       <h2>© 2025 Adebowale | Web Designer</h2>
       
       <ul className="flex gap-10">
-        <li><FaWhatsapp /></li>
-        <li><FaGithub /></li>
+        <a href=""><li><FaWhatsapp /></li></a>
+        <a href="https://github.com/Adebowaleraji0103/"><li><FaGithub /></li></a>
         <li><SiGmail /></li>
         <li><FaLinkedin /></li>
       </ul>
