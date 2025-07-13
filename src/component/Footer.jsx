@@ -12,8 +12,8 @@ const Footer = () => {
       <ul className="flex gap-10">
         <a href=""><li><FaWhatsapp /></li></a>
         <a href="https://github.com/Adebowaleraji0103/"><li><FaGithub /></li></a>
-        <li><SiGmail /></li>
-        <li><FaLinkedin /></li>
+        <a href=""><li><SiGmail /></li></a>
+       <a href=""> <li><FaLinkedin /></li></a>
       </ul>
 
     </footer>
