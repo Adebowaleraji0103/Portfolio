@@ -25,7 +25,7 @@ const Navbar = () => {
       <nav
         className={`${
           openNavbar ? "max-h-[500px] " : "max-h-0"
-        } transition-all duration-1000 ease-in overflow-hidden md:block md:max-h-full`}
+        } transition-all duration-500 ease-in overflow-hidden md:block md:max-h-full`}
       >
         <ul
           className={`flex flex-col md:flex-row px-10 gap-[25px] font-semibold text-[#2ecc71]`}
