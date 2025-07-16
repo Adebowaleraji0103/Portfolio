@@ -5,8 +5,8 @@ import Profilepage from "./component/Profilepage/ProfilePage";
 function App() {
   return (
     <div>
-      {/* <Landing /> */}
-      <Profilepage />
+      <Landing />
+      {/* <Profilepage /> */}
     </div>
   );
 }
