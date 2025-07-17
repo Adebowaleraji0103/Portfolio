@@ -7,7 +7,7 @@ const Landing = () => {
         </h2>
       </header>
 
-      <div className="flex flex-col gap-9 items-center bg-[] ">
+      <div className="flex flex-col gap-9 items-center bg-[#f5f5f5de] shadow">
         <div className=" w-[250px] h-[300px] bg-[#4dd44d] rounded-full items-center flex justify-center">
           <div className="h-[95%] w-[95%]  ">
             <img
