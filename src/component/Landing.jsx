@@ -8,13 +8,20 @@ const Landing = () => {
       </header>
 
       <div className="flex flex-col gap-9 items-center  h-[100vh] ">
-        <div className=" w-[350px] h-[350px] bg-[#4dd44d] rounded-full overflow-hidden">
-          <div className="p-5 rounded-full">
-            <img src="./images/my profile pics.jpeg" alt="" className="w-full h-full rounded-full"/>
+        <div className=" w-[350px] h-[350px] bg-[#4dd44d] rounded-full items-center flex justify-center">
+          <div className="h-[95%] w-[95%]  ">
+            <img
+              className="w-full h-full rounded-full object-cover border-[#2ecc71] border-4"
+              src="./images/my profile pics.jpeg"
+              alt=""
+            />
           </div>
         </div>
 
-        <h2>Hello I'm Adebowale</h2>
+       <div className="flex flex-col gap-1">
+         <h2 className="text-[25px]">Hello I'm <span className="font-bold text-[28px]">Adebowale</span></h2>
+         <h3 className="text-[22px] font-semibold">A Frontend Developer</h3>
+       </div>
 
         <div className="flex gap-3">
           <button className="py-2 px-4 bg-[#4dd44d] text-white font-semibold rounded-[10px]">
