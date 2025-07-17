@@ -7,8 +7,8 @@ const Landing = () => {
         </h2>
       </header>
 
-      <div className="flex flex-col gap-9 items-center  h-[100vh] ">
-        <div className=" w-[350px] h-[350px] bg-[#4dd44d] rounded-full items-center flex justify-center">
+      <div className="flex flex-col gap-9 items-center ">
+        <div className=" w-[250px] h-[250px] bg-[#4dd44d] rounded-full items-center flex justify-center">
           <div className="h-[95%] w-[95%]  ">
             <img
               className="w-full h-full rounded-full object-cover border-[#2ecc71] border-4"
