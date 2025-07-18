@@ -1,3 +1,5 @@
+import Typed from "react-typed";
+
 const Landing = () => {
   return (
     <div>
