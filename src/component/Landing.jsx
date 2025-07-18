@@ -1,4 +1,3 @@
-import { scale } from "framer-motion";
 
 const Landing = () => {
   return (
@@ -10,7 +9,7 @@ const Landing = () => {
       </header>
 
       <div className="flex flex-col gap-9 items-center bg-[#f5f5f5de] shadow py-10">
-        <div className=" w-[250px] h-[300px] bg-[#4dd44d] rounded-full items-center flex justify-center">
+        <div className=" w-[250px] h-[300px] bg-[#2ecc71] rounded-full items-center flex justify-center">
 
           <div className="h-[95%] w-[95%]  ">
             <img
@@ -29,10 +28,10 @@ const Landing = () => {
        </div>
 
         <div className="flex gap-3 ">
-          <button className="py-2 px-4 bg-[#4dd44d] text-white font-semibold rounded-[10px] cursor-pointer hover:bg-white border-2 border-[#4dd44d] hover:text-[#4dd44d]">
+          <button className="py-2 px-4 bg-[#2ecc71] text-white font-semibold rounded-[10px] cursor-pointer hover:bg-white border-2 border-[#4dd44d] hover:text-[#4dd44d]">
             View Profile
           </button>
-          <button className="py-2 px-4 text-[#4dd44d] bg-white border-[#4dd44d] border-2 font-semibold rounded-[10px] cursor-pointer hover:bg-[#4dd44d] hover:text-white">
+          <button className="py-2 px-4 text-[#2ecc71] bg-white border-[#2ecc71] border-2 font-semibold rounded-[10px] cursor-pointer hover:bg-[#4dd44d] hover:text-white">
             Download Cv
           </button>
         </div>
