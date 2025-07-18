@@ -1,3 +1,4 @@
+import { scale } from "framer-motion";
 
 const Landing = () => {
   return (
