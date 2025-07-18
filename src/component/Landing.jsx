@@ -24,6 +24,14 @@ const Landing = () => {
        <div className="flex flex-col gap-1">
          <h2 className="text-[25px]">Hello I'm <span className="font-bold text-[28px]">Adebowale</span></h2>
          <h3 className="text-[22px] font-semibold">A Frontend Developer</h3>
+         <Typed
+        className="text-xl text-gray-700 mt-2 block"
+        strings={["A Frontend Developer", "A UI Enthusiast", "A Problem Solver"]}
+        typeSpeed={50}
+        backSpeed={30}
+        loop
+      />
+
        </div>
 
         <div className="flex gap-3 ">
