@@ -7,11 +7,12 @@ const Landing = () => {
         </h2>
       </header>
 
-      <div className="flex flex-col gap-9 items-center bg-[#f5f5f5de] shadow">
+      <div className="flex flex-col gap-9 items-center bg-[#f5f5f5de] shadow py-10">
         <div className=" w-[250px] h-[300px] bg-[#4dd44d] rounded-full items-center flex justify-center">
+
           <div className="h-[95%] w-[95%]  ">
             <img
-              className="w-full h-full rounded-full object-cover border-[#2ecc71] border-4"
+              className="w-full h-full rounded-full object-cover "
               src="./images/my profile pics.jpeg"
               alt=""
             />
@@ -23,14 +24,15 @@ const Landing = () => {
          <h3 className="text-[22px] font-semibold">A Frontend Developer</h3>
        </div>
 
-        <div className="flex gap-3">
-          <button className="py-2 px-4 bg-[#4dd44d] text-white font-semibold rounded-[10px]">
+        <div className="flex gap-3 ">
+          <button className="py-2 px-4 bg-[#4dd44d] text-white font-semibold rounded-[10px] cursor-pointer">
             View Profile
           </button>
-          <button className="py-2 px-4 bg-[#4dd44d] text-white font-semibold rounded-[10px]">
+          <button className="py-2 px-4 text-[#4dd44d] bg-white border-[#4dd44d] border-2 font-semibold rounded-[10px] cursor-pointer">
             Download Cv
           </button>
         </div>
+
       </div>
     </div>
   );
