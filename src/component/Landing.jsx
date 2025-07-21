@@ -2,7 +2,7 @@ import { MdLightMode } from "react-icons/md";
 
 const Landing = () => {
   return (
-    <div className=" ">
+    <div className="min-h-screen w-full flex flex-col justify-between ">
       <header className="flex justify-between items-center  shadow-gray-250 shadow-lg bg-transparent w-full px-[2rem] py-[7px] scroll-smooth mb-15">
         <h2 className="font-bold text-[#2ecc71] bg-[gray] px-5 py-2 w-fit rounded-2xl">
           Debo{" "}
