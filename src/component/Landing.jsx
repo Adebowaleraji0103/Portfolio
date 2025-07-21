@@ -17,7 +17,7 @@ const Landing = () => {
           </div>
 
          <div className="flex flex-col gap-4 ">
-          <div className="flex flex-col gap-1">
+          <div>
             <h2 className="text-[25px] md:text-[4rem]">
               Hello I'm <span className="font-bold text-[28px]">Adebowale</span>
             </h2>
