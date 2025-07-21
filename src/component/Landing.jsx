@@ -1,13 +1,13 @@
 const Landing = () => {
   return (
-    <div className="bg-[#f5f5f5de]">
+    <div className="bg-[#f5f5f5de] w-full h-full">
       <header className=" shadow-gray-250 shadow-lg bg-transparent w-full px-[2rem] py-[7px] scroll-smooth mb-5">
         <h2 className="font-bold text-[#2ecc71] bg-[gray] px-5 py-2 w-fit rounded-2xl">
           Debo{" "}
         </h2>
       </header>
 
-      <div className="flex flex-col justify-center gap-9 items-center shadow py-10 md:flex md:flex-row ">
+      <div className="flex flex-col  justify-center gap-9 items-center shadow py-10 md:flex md:flex-row ">
         <div className=" w-[250px] h-[250px] bg-[#2ecc71] rounded-full items-center flex justify-center">
           <div className="h-[95%] w-[95%]  ">
             <img
