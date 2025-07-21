@@ -1,13 +1,13 @@
 const Landing = () => {
   return (
-    <div className="bg-[#f5f5f5de] w-full h-[100vh]">
-      <header className=" shadow-gray-250 shadow-lg bg-transparent w-full px-[2rem] py-[7px] scroll-smooth mb-5">
+    <div className=" ">
+      <header className=" shadow-gray-250 shadow-lg bg-transparent w-full px-[2rem] py-[7px] scroll-smooth mb-15">
         <h2 className="font-bold text-[#2ecc71] bg-[gray] px-5 py-2 w-fit rounded-2xl">
           Debo{" "}
         </h2>
       </header>
 
-      <div className="flex flex-col  justify-center gap-9 items-center shadow py-10 md:flex md:flex-row ">
+      <div className="flex flex-col  justify-center gap-9 items-center  py-10 md:flex md:flex-row  ">
         <div className=" w-[250px] h-[250px] bg-[#2ecc71] rounded-full items-center flex justify-center">
           <div className="h-[95%] w-[95%]  ">
             <img
@@ -20,7 +20,7 @@ const Landing = () => {
 
         <div className="flex flex-col gap-4 ">
           <div className="flex flex-col gap-1">
-            <h2 className="text-[25px]">
+            <h2 className="text-[25px] md:text-[4rem]">
               Hello I'm <span className="font-bold text-[28px]">Adebowale</span>
             </h2>
             <h3 className="text-[22px] font-semibold">A Frontend Developer</h3>
