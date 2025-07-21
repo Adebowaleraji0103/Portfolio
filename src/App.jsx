@@ -7,7 +7,7 @@ function App() {
     <div>
       <Router>
         <Landing />
-        <Profilepage />
+        {/* <Profilepage /> */}
       </Router>
     </div>
   );
