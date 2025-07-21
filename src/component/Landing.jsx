@@ -1,13 +1,17 @@
+import { MdLightMode } from "react-icons/md";
+
 const Landing = () => {
   return (
     <div className=" ">
-      <header className=" shadow-gray-250 shadow-lg bg-transparent w-full px-[2rem] py-[7px] scroll-smooth mb-15">
+      <header className="flex justify-between items-center  shadow-gray-250 shadow-lg bg-transparent w-full px-[2rem] py-[7px] scroll-smooth mb-15">
         <h2 className="font-bold text-[#2ecc71] bg-[gray] px-5 py-2 w-fit rounded-2xl">
           Debo{" "}
         </h2>
+        <MdLightMode className="size-[25px] cursor-pointer" />
       </header>
+      {/* .............header............................. */}
 
-      <div className="flex flex-col  justify-center gap-9 items-center  py-10 md:flex md:flex-row  ">
+      {/* <div className="flex flex-col  justify-center gap-9 items-center  py-10 md:flex md:flex-row  ">
         <div className=" w-[250px] h-[250px] bg-[#2ecc71] rounded-full items-center flex justify-center">
           <div className="h-[95%] w-[95%]  ">
             <img
@@ -35,7 +39,7 @@ const Landing = () => {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
