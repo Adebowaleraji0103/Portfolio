@@ -11,18 +11,12 @@ const Landing = () => {
       </header>
       {/* .............header............................. */}
 
-      <div className="flex flex-col  justify-center gap-9 items-center  py-10 md:flex md:flex-row  ">
-        <div className=" w-[250px] h-[250px] bg-[#2ecc71] rounded-full items-center flex justify-center">
-          <div className="h-[95%] w-[95%]  ">
-            <img
-              className="w-full h-full rounded-full object-cover "
-              src="./images/my profile pics.jpeg"
-              alt=""
-            />
+      <div className="flex flex-col justify-center gap-9 items-center py-10 md:my-auto md:flex md:flex-row ">
+          <div className="w-[250px] h-[250px] border-[7px] border-[#2ecc71] rounded-full  ">
+            <img className="w-full h-full rounded-full object-cover "src="./images/my profile pics.jpeg"alt=""/>
           </div>
-        </div>
 
-        {/* <div className="flex flex-col gap-4 ">
+         <div className="flex flex-col gap-4 ">
           <div className="flex flex-col gap-1">
             <h2 className="text-[25px] md:text-[4rem]">
               Hello I'm <span className="font-bold text-[28px]">Adebowale</span>
@@ -38,8 +32,12 @@ const Landing = () => {
               Download Cv
             </button>
           </div>
-        </div> */}
+        </div>
       </div> 
+    {/* ...........foooter..........             */}
+           <footer className="bg-black py-10">
+            <h1>Adebowale</h1>
+           </footer>
     </div>
   );
 };
