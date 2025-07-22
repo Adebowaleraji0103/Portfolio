@@ -1,14 +1,17 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Landing from "./component/Landing";
+import { BrowserRouter } from "react-router";
+import LandingPage from "./component/LandingPage";
 import Profilepage from "./component/Profilepage/ProfilePage";
 
 function App() {
   return (
     <div>
-      <Router>
-        <Landing />
-        {/* <Profilepage /> */}
-      </Router>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+        </Routes>
+      </BrowserRouter>
+
+      {/* <Profilepage /> */}
     </div>
   );
 }
