@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router";
+import { BrowserRouter, Route, Routes } from "react-router";
 import LandingPage from "./component/LandingPage";
 import Profilepage from "./component/Profilepage/ProfilePage";
 
@@ -8,10 +8,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/ProfilePage" element={<Profilepage />} />
         </Routes>
       </BrowserRouter>
-
-      {/* <Profilepage /> */}
     </div>
   );
 }
