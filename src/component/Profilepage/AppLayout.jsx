@@ -5,17 +5,17 @@ import Skills from "./Skills";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
-const Profilepage = () => {
+const AppLayout = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
+      {/* <Hero />
       <About />
       <Skills />
-      <Contact />
+      <Contact /> */}
       <Footer />
     </div>
   );
 };
 
-export default Profilepage;
+export default AppLayout;

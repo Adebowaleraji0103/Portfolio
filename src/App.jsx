@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router";
 import LandingPage from "./component/LandingPage";
-import Profilepage from "./component/Profilepage/ProfilePage";
+import AppLayout from "./component/Profilepage/AppLayout";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/ProfilePage" element={<Profilepage />} />
+          <Route path="/AppLayout" element={<AppLayout />} />
         </Routes>
       </BrowserRouter>
     </div>
